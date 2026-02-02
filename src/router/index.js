@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ExampleParentChild from '../views/ExampleParentChild.vue'
+import ExampleSlotDefault from '../views/ExampleSlotDefault.vue'
+import ExampleSlotNamed from '../views/ExampleSlotNamed.vue'
+import ExampleSlotScoped from '../views/ExampleSlotScoped.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -16,12 +19,19 @@ const router = createRouter({
       component: ExampleParentChild,
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue'),
+      path: '/ExampleSlotDefault',
+      name: 'Example Slot Default',
+      component: ExampleSlotDefault,
+    },
+    {
+      path: '/ExampleSlotNamed',
+      name: 'Example Slot Named',
+      component: ExampleSlotNamed,
+    },
+    {
+      path: '/ExampleSlotScoped',
+      name: 'Example Slot Scoped',
+      component: ExampleSlotScoped,
     },
   ],
 })

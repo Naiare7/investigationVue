@@ -18,7 +18,10 @@ const selectUser = () => {
 <template>
   <div class="userItemContainer">
     <div @click="selectUser" style="cursor: pointer">
-      👤 {{ user.name }}
+      <span class="material-icons fs-2">
+        account_circle
+      </span>
+      {{ user.name }}
     </div>
     <BaseButton
         :text="'Seleccionar'"
@@ -47,6 +50,14 @@ const selectUser = () => {
     margin: 0.5rem;
     gap:1rem;
     justify-content:space-between;
+  }
+  .userItemContainer div {
+    display: flex;
+    place-items: center;
+    gap:0.5rem;
+  }
+  .fs-2 {
+    font-size: 2.5rem;
   }
 </style>
 

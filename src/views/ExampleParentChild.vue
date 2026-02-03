@@ -1,5 +1,5 @@
 <script setup>
-import UserList from '../components/ExampleParentChild/UserList.vue'
+import UserList from '../components/exampleParentChild/UserList.vue'
 </script>
 
 <template>

@@ -1,5 +1,5 @@
 <script setup>
-import SlotDefault from '../components/ExampleSlot/SlotDefault.vue'
+import SlotDefault from '../components/exampleSlot/SlotDefault.vue'
 </script>
 
 <template>

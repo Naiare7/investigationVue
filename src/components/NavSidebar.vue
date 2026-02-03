@@ -38,13 +38,14 @@ const menu = [
   { name: 'Slot por defecto', path: '/ExampleSlotDefault', icon: 'integration_instructions' },
   { name: 'Slot con nombre', path: '/ExampleSlotNamed', icon: 'badge' },
   { name: 'Slot con datos', path: '/ExampleSlotScoped', icon: 'data_object' },
+  { name: 'Teleport', path: '/ExampleTeleport', icon: 'flash_on' },
 ]
 </script>
 
 <style scoped>
 .sidebar {
   width: 250px;
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgb(40, 40, 40);
   color: white;
   border-right: 0.2rem solid gray;

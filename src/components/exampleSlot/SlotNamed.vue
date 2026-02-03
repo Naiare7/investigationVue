@@ -5,6 +5,7 @@ import BaseButton from '../common/BaseButton.vue'
 
 <template>
     <div>
+        <h1>Ejemplo con slots nombrados</h1>
         <h2>El padre envia un contenido personalizado en cada slot con nombre:</h2>
         <h2>Permite múltiples áreas personalizables dentro del mismo componente.</h2>
         <br>

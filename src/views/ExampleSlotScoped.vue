@@ -1,5 +1,5 @@
 <script setup>
-import SlotScopedParent from '../components/ExampleSlot/SlotScopedParent.vue'
+import SlotScopedParent from '../components/exampleSlot/SlotScopedParent.vue'
 </script>
 
 <template>

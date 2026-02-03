@@ -4,6 +4,7 @@ import BaseCard from '../common/BaseCard.vue'
 
 <template>
     <div>
+        <h1>Ejemplo con slot por default</h1>
          <h2>- Aqui cargamos un componente comun y desde el padre le pasamos el contenido que espera el slot.</h2>
          <h2>- El padre decide que contenido va dentro del componente que tiene slot</h2>
          <br>

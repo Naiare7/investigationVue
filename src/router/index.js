@@ -4,6 +4,7 @@ import ExampleParentChild from '../views/ExampleParentChild.vue'
 import ExampleSlotDefault from '../views/ExampleSlotDefault.vue'
 import ExampleSlotNamed from '../views/ExampleSlotNamed.vue'
 import ExampleSlotScoped from '../views/ExampleSlotScoped.vue'
+import ExampleTeleport from '@/views/ExampleTeleport.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/ExampleSlotScoped',
       name: 'Example Slot Scoped',
       component: ExampleSlotScoped,
+    },
+    {
+      path: '/ExampleTeleport',
+      name: 'Example Teleport',
+      component: ExampleTeleport,
     },
   ],
 })

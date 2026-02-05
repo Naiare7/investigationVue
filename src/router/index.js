@@ -6,6 +6,8 @@ import ExampleSlotNamed from '../views/ExampleSlotNamed.vue'
 import ExampleSlotScoped from '../views/ExampleSlotScoped.vue'
 import ExampleTeleport from '@/views/ExampleTeleport.vue'
 import ExampleProvideInject from '@/views/ExampleProvideInject.vue'
+import ExampleReactive from '@/views/ExampleReactive.vue'
+import ExampleToRefs from '@/views/ExampleToRefs.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -44,6 +46,16 @@ const router = createRouter({
       path: '/ExampleProvideInject',
       name: 'Example Provide/Inject',
       component: ExampleProvideInject,
+    },
+    {
+      path: '/ExampleReactive',
+      name: 'Example Reactive',
+      component: ExampleReactive,
+    },
+    {
+      path: '/ExampleToRefs',
+      name: 'Example ToRefs',
+      component: ExampleToRefs,
     },
   ],
 })

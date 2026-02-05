@@ -5,7 +5,7 @@ import BaseCard from '../common/BaseCard.vue';
 
 // by providing a ref, the GrandChild
 // can react to changes happening here.
-const msg = ref('hola mundo, soy un mensaje "Provide"')
+const msg = ref('hola, soy un mensaje "Provide"')
 
 function resetMsg() {
   msg.value = 'Hola!! me han reiniciado'

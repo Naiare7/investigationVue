@@ -40,6 +40,8 @@ const menu = [
   { name: 'Slot con datos', path: '/ExampleSlotScoped', icon: 'data_object' },
   { name: 'Teleport', path: '/ExampleTeleport', icon: 'flash_on' },
   { name: 'Provide / Inject', path: '/ExampleProvideInject', icon: 'vaccines' },
+  { name: 'Reactive', path: '/ExampleReactive', icon: 'science' },
+  { name: 'ToRefs', path: '/ExampleToRefs', icon: 'link' },
 ]
 </script>
 

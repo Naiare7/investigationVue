@@ -9,6 +9,7 @@ import ExampleProvideInject from '@/views/ExampleProvideInject.vue'
 import ExampleReactive from '@/views/ExampleReactive.vue'
 import ExampleToRefs from '@/views/ExampleToRefs.vue'
 import ExampleShallowRefReactive from '@/views/ExampleShallowRefReactive.vue'
+import ExampleComputed from '@/views/ExampleComputed.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -62,6 +63,11 @@ const router = createRouter({
       path: '/ExampleShallowRefReactive',
       name: 'Example Shallow Ref Reactive',
       component: ExampleShallowRefReactive,
+    },
+    {
+      path: '/ExampleComputed',
+      name: 'Example Computed',
+      component: ExampleComputed,
     },
   ],
 })

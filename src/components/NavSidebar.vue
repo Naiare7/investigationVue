@@ -43,6 +43,7 @@ const menu = [
   { name: 'Reactive', path: '/ExampleReactive', icon: 'science' },
   { name: 'ToRefs', path: '/ExampleToRefs', icon: 'link' },
   { name: 'ShallowRef', path: '/ExampleShallowRefReactive', icon: 'low_priority' },
+  { name: 'Computed', path: '/ExampleComputed', icon: 'calculate' },
 ]
 </script>
 

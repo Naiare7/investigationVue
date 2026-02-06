@@ -44,6 +44,7 @@ const menu = [
   { name: 'ToRefs', path: '/ExampleToRefs', icon: 'link' },
   { name: 'ShallowRef', path: '/ExampleShallowRefReactive', icon: 'low_priority' },
   { name: 'Computed', path: '/ExampleComputed', icon: 'calculate' },
+  { name: 'Watch', path: '/ExampleWatch', icon: 'calculate' },
 ]
 </script>
 

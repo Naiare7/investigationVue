@@ -42,6 +42,7 @@ const menu = [
   { name: 'Provide / Inject', path: '/ExampleProvideInject', icon: 'vaccines' },
   { name: 'Reactive', path: '/ExampleReactive', icon: 'science' },
   { name: 'ToRefs', path: '/ExampleToRefs', icon: 'link' },
+  { name: 'ShallowRef', path: '/ExampleShallowRefReactive', icon: 'low_priority' },
 ]
 </script>
 

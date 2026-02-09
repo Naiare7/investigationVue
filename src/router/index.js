@@ -11,6 +11,7 @@ import ExampleToRefs from '@/views/ExampleToRefs.vue'
 import ExampleShallowRefReactive from '@/views/ExampleShallowRefReactive.vue'
 import ExampleComputed from '@/views/ExampleComputed.vue'
 import ExampleWatch from '@/views/ExampleWatch.vue'
+import ExampleWatchEffect from '@/views/ExampleWatchEffect.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -74,6 +75,11 @@ const router = createRouter({
       path: '/ExampleWatch',
       name: 'Example Watch',
       component: ExampleWatch,
+    },
+    {
+      path: '/ExampleWatchEffect',
+      name: 'Example WatchEffect',
+      component: ExampleWatchEffect,
     },
   ],
 })

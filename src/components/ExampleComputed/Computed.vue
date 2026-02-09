@@ -30,6 +30,7 @@ const total = computed(() => price.value * quantity.value)
 <template>
     <div>
         <h1>Ejemplo de propiedad Computada</h1>
+        <br>
         <BaseCard>
             <BaseInput :text-label="'Nombre'" v-model="upperName"/>
             <BaseInput :text-label="'Apellido'" v-model="lastName"/>

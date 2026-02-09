@@ -1,5 +1,5 @@
 <script setup>
-import WatchEffect from '@/components/ExampleWatch/WatchEffect.vue';
+import WatchEffect from '@/components/exampleWatch/WatchEffect.vue';
 
 </script>
 

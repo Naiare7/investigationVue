@@ -1,5 +1,5 @@
 <script setup>
-import Watch from '@/components/ExampleWatch/Watch.vue';
+import Watch from '@/components/exampleWatch/Watch.vue';
 
 </script>
 

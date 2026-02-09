@@ -46,6 +46,7 @@ const menu = [
   { name: 'Computed', path: '/ExampleComputed', icon: 'calculate' },
   { name: 'Watch', path: '/ExampleWatch', icon: 'device_hub' },
   { name: 'WatchEffect', path: '/ExampleWatchEffect', icon: 'visibility' },
+  { name: 'Ciclo de vida', path: '/ExampleLifeCycle', icon: 'monitor_heart' },
 ]
 </script>
 

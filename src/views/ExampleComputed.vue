@@ -1,5 +1,5 @@
 <script setup>
-import Computed from '@/components/ExampleComputed/Computed.vue';
+import Computed from '@/components/exampleComputed/Computed.vue';
 
 </script>
 

@@ -12,6 +12,7 @@ import ExampleShallowRefReactive from '@/views/ExampleShallowRefReactive.vue'
 import ExampleComputed from '@/views/ExampleComputed.vue'
 import ExampleWatch from '@/views/ExampleWatch.vue'
 import ExampleWatchEffect from '@/views/ExampleWatchEffect.vue'
+import ExampleLifeCycle from '@/views/ExampleLifeCycle.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -80,6 +81,11 @@ const router = createRouter({
       path: '/ExampleWatchEffect',
       name: 'Example WatchEffect',
       component: ExampleWatchEffect,
+    },
+    {
+      path: '/ExampleLifeCycle',
+      name: 'Example Life Cycle',
+      component: ExampleLifeCycle,
     },
   ],
 })

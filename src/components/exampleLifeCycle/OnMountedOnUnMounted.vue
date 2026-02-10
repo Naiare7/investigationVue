@@ -1,5 +1,12 @@
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue';
+import { 
+    ref, 
+    onBeforeMount, 
+    onMounted, 
+    onBeforeUpdate, 
+    onUpdated, 
+    onBeforeUnmount, 
+    onUnmounted } from 'vue';
 import BaseCard from '../common/BaseCard.vue';
 
 let autors = ref(['Yoandres', 'Naia', 'Ramiro'])
@@ -24,6 +31,13 @@ onMounted(() => {
 onUnmounted(() => {
     clearInterval(intervalo);
 });
+
+onBeforeMount(() => console.log('Antes de montar'))
+onMounted(() => console.log('Montado'))
+onBeforeUpdate(() => console.log('Antes de actualizar'))
+onUpdated(() => console.log('Actualizado'))
+onBeforeUnmount(() => console.log('Antes de desmontar'))
+onUnmounted(() => console.log('Desmontado'))
 </script>
 
 <template>
